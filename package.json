@@ -17,7 +17,6 @@
   "license": "GPL-3.0-or-later",
   "dependencies": {
     "@nebula-services/bare-server-node": "^2.0.4",
-    "@netlify/next": "^1.4.9",
     "chalk": "^5.4.1",
     "cookie-parser": "^1.4.7",
     "cors": "^2.8.5",
@@ -25,10 +24,14 @@
     "express": "^4.21.2",
     "express-basic-auth": "^1.2.1",
     "mime": "^4.0.7",
-    "node-fetch": "^3.3.2"
+    "next": "^15.1.8",
+    "node-fetch": "^3.3.2",
+    "react": "^19.1.0",
+    "react-dom": "^19.1.0"
   },
   "devDependencies": {
-    "@biomejs/biome": "1.9.4"
+    "@biomejs/biome": "1.9.4",
+    "@netlify/next": "^1.4.9"
   },
   "packageManager": "pnpm@9.10.0"
 }

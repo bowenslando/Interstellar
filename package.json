@@ -8,7 +8,6 @@
   },
   "scripts": {
     "start": "node index.js",
-    "build": "next build && npx @netlify/next",
     "format": "biome format --write .",
     "precommit": "pnpm run format && biome check --write .",
     "lint": "biome lint --write ."
